@@ -1,0 +1,13 @@
+/* reset */
+@import url(reset.css);
+
+/* font-awesome */
+@import url('http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* layout style */
+@import url(header.css);
+@import url(nav.css);
+@import url(title.css);
+@import url(contents.css);
+@import url(footer.css);
+

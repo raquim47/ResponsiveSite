@@ -1,0 +1,30 @@
+footer {
+  padding: 30px 50px;
+  border-top: 1px solid #dbdbdb;
+  text-align: center;
+}
+
+.footer li {
+  display: inline;
+  position: relative;
+  padding: 0 7px 0 10px;
+  white-space: nowrap;
+}
+
+.footer li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 1px;
+  height: 12px;
+  background: #dbdbdb;
+}
+
+.footer li:first-child::before {
+  width: 0;
+}
+
+.footer address {
+  padding-top: 15px;
+}
